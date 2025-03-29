@@ -8,10 +8,13 @@
 </head>
 <body>
     <h2>Public Chat</h2>
+    
+    <input type="text" class="mass" id="usernameInput" placeholder="Enter your name">
+    <button onclick="setUsername()">Set Name</button>
+
     <div id="messages"></div>
-    <input type="text" id="messageInput" placeholder="Type a message...">
-    <br />
-    <button style="margin-top: 10px" onclick="sendMessage()">Send</button>
+    <input type="text" class="mass" id="messageInput" placeholder="Type a message...">
+    <button onclick="sendMessage()">Send</button>
 
     <script type="module" src="firebase.js"></script>
 </body>

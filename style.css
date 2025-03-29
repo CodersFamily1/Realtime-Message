@@ -22,7 +22,7 @@ h2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#messageInput {
+.mass {
   width: 70%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -39,6 +39,7 @@ button {
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 button:hover {
